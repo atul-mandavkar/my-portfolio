@@ -79,16 +79,28 @@ body{
 .anchorProjects{
   width: 100%;
   height: 100%;
+  text-decoration: none;
 }
 .imageProjects{
   width: 100%;
   height: 100%;
 }
+figcaption{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: palegoldenrod;
+  display: none;
+}
 .projects:hover{
   flex-basis: 50%;
   width: 100%;
   height: 100%;
-  clip-path: inset(0 1%); /* clip in rect shape*/
+  clip-path: inset(0); /* clip in rect shape*/
+}
+.projects:hover figcaption{
+  display: block;
 }
 #otherDetailOfMe{
   width: 100%;
