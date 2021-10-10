@@ -32,10 +32,7 @@ body{
 #fullScreen{
   width: 100vw;
   height: 100vh;
-  background-image: url(https://images.template.net/wp-content/uploads/2016/02/05092615/Download-Gold-Background-AI-Format.jpg);
-  background-repeat: no-repeat;
-  background-attachment: relative;
-  background-size: cover;
+  background-image: linear-gradient(to right, bisque, white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,6 +89,6 @@ body{
   margin-top: 20px;
   line-height: 100px;
   font-size: 24px;
-  background-color: blue;
+  background-color: cornflowerblue;
   color: white;
 }
