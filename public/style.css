@@ -116,7 +116,7 @@ figcaption{
   color: white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   #fixedSticker{
     background-color: red;
   }
