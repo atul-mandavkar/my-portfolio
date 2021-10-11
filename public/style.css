@@ -20,11 +20,10 @@ body{
   top: 0;
   z-index: 1;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 #headerNav{
   display: flex;
-  justify-content: end;
   line-height: 100px;
 }
 .headerAnchors{
