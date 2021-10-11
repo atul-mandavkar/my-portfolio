@@ -118,8 +118,13 @@ figcaption{
   color: white;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
   #fixedSticker {
+=======
+@media screen and (max-width: 320px) {
+  #fixedSticker{
+>>>>>>> 3eb72ea5b79012d317f89893d9128978e8a8a280
     background-color: red;
     color: white;
   }
