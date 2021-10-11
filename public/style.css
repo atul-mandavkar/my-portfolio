@@ -28,9 +28,11 @@ body{
   line-height: 100px;
 }
 .headerAnchors{
+  flex: 10%;
   font-size: 24px;
   color: bisque;
   padding: 0 10px;
+  border: 1px solid black;
 }
 #fullScreen{
   width: 100vw;
@@ -116,8 +118,9 @@ figcaption{
   color: white;
 }
 
-@media screen and (max-width: 480px) {
-  #fixedSticker{
+@media screen and (max-width: 992px) {
+  #fixedSticker {
     background-color: red;
+    color: white;
   }
 }
