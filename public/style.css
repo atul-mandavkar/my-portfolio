@@ -119,7 +119,7 @@ figcaption{
 }
 
 @media screen and (max-width: 992px) {
-  body {
+  #fixedSticker {
     background-color: red;
   }
 }
