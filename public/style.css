@@ -116,7 +116,7 @@ figcaption{
   background-color: cornflowerblue;
   color: white;
 }
-
+/* use this for smaller screen*/
 @media screen and (max-width: 992px) {
   
 }
