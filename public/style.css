@@ -31,7 +31,7 @@ body{
   font-size: 24px;
   color: bisque;
   padding: 0 10px;
-  border: 1px solid black;
+  text-decoration: none;
 }
 #fullScreen{
   width: 100vw;
@@ -53,6 +53,35 @@ body{
   font-size: 28px;
   text-shadow: 1px 1px 5px white;
   text-decoration: underline;
+}
+#info{
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  position: relative;
+  right: 50px;
+  float: right;
+  text-align: left;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  display: none;
+}
+#info::before{
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: 100%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+#infoAnchor:hover + #info{
+  display: block;
 }
 #as_a{
   font-size: 24px;
