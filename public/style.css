@@ -69,7 +69,18 @@ body{
   color:palevioletred;
   text-shadow: 1px 1px 2px blue;
 }
-#projectSection{
+#projectContainer{
+  border-top: 1px solid black;
+}
+.projectSectionHeading{
+  font-style: italic;
+  color: navy;
+}
+.projectSectionHeading::first-letter{
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.projectSection{
   display: flex;
   flex-direction: row;
 }
