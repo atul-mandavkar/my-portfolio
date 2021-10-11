@@ -122,4 +122,7 @@ figcaption{
   #fixedSticker {
     background-color: red;
   }
+  .headerAnchors{
+    border: 1px solid green;
+  }
 }
