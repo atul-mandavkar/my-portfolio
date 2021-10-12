@@ -104,6 +104,7 @@ body{
 .projectSectionHeading{
   font-style: italic;
   color: navy;
+  border-top: 1px dashed grey;
 }
 .projectSectionHeading::first-letter{
   text-transform: uppercase;
