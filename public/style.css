@@ -151,12 +151,6 @@ figcaption{
   background-color: palegoldenrod;
   display: none;
 }
-.projects:hover figcaption{
-  display: block;
-  width: 99%;
-  border: 1px solid;
-  margin-top: -4px;
-}
 .projects:hover{
   width: 300%;
   height: 300%;
@@ -166,6 +160,12 @@ figcaption{
   border-radius: 0;
   width: 100%;
   height: 90%;
+}
+.projects:hover figcaption{
+  display: block;
+  width: 99%;
+  border: 1px solid;
+  margin-top: -4px;
 }
 #otherDetailOfMe{
   width: 100%;
@@ -177,6 +177,10 @@ figcaption{
   color: white;
 }
 /* use this for smaller screen*/
-@media screen and (max-width: 992px) {
-  
+@media screen and (max-width: 600px) {
+  .projects:hover{
+    width: 400%;
+    height: 400%;
+    clip-path: inset(0);  /* clip in rect shape*/
+  }
 }
