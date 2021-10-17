@@ -179,8 +179,8 @@ figcaption{
 /* use this for smaller screen*/
 @media screen and (max-width: 600px) {
   .projects:hover{
-    width: 600px;
-    height: 600px;
+    width: 50vw;
+    height: 500px;
     clip-path: inset(0);  /* clip in rect shape*/
   }
 }
