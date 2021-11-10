@@ -112,6 +112,22 @@ body{
   text-transform: uppercase;
   font-size: 28px;
 }
+.note{
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  border: 1px solid white;
+  color: red;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-shadow: 1px 1px black;
+  display: none;
+}
+.projectSectionHeading:hover + .note{
+  display: block;
+}
 .projectSection{
   display: flex;
   flex-direction: row;
